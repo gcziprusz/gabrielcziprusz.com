@@ -1,0 +1,10 @@
+[InstallShield Silent]
+Version=v7.00
+File=Log File
+[ResponseResult]
+ResultCode=0
+[Application]
+Name=Sony Picture Utility
+Version=3.2.02.06170
+Company=Sony Corporation
+Lang=0009
