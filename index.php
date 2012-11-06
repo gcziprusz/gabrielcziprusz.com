@@ -46,7 +46,7 @@
     <div class="page" id="home"> 
       <!-- page home -->
       <div class="page_content">
-		 <h3 class="page_title">Here is the 'big picture'</h3>
+		 <h3 class="page_title">The 'big picture'</h3>
         
 		<img usemap="#map" class="no_border" src="images/how_dis_works.png" alt="If you like my work contact me">
 		<map id="map" name="map">
@@ -94,20 +94,112 @@
       <!-- page portfolio -->
       <h3 class="page_title"> Portfolio</h3>
       <div class="page_content">
-        <p>The projects highlighted below are public projects that I contributed to. 
+        <p>The projects highlighted below are public projects that I contributed to at my current and previous employer. 
 		Some of the ICF projects are not accessible to the public.</p>
         <ul id="works_filter">
-          <li><a href="#" data-filter="*" class="selected">Show All</a></li>
-          <li><a href="#" data-filter=".icf">ICF Projects</a></li>
-          <li><a href="#" data-filter=".exe">Exemplum Projects</a></li>
-          <li><a href="#" data-filter=".ru">Radford University Projects</a></li>
+          <li><a href="#" data-filter="*" class="selected">Show All (7)</a></li>
+          <li><a href="#" data-filter=".icf">ICF Projects (4)</a></li>
+          <li><a href="#" data-filter=".exe">Exemplum Project (1)</a></li>
+          <li><a href="#" data-filter=".ru">Radford University Projects (2)</a></li>
         </ul>
         <div class="clear"> </div>
         <div id="works"> 
           <!-- works --> 
-          <a rel="prettyPhoto[gallery]" href="images/pf/see_tumb.jpg"> <img class="work exe" src="images/pf/see_tumb.jpg" alt="" />Exemplum Demo Management utility</a>
-		  
-		  <a rel="prettyPhoto[gallery]" href="images/photos/03.jpg"> <img class="work css" src="images/photos/03.jpg" alt="" /> </a><a rel="prettyPhoto[gallery]" href="images/photos/04.jpg"> <img class="work html_php" src="images/photos/04.jpg" alt="" /> </a><a rel="prettyPhoto[gallery]" href="images/photos/05.jpg"> <img class="work html_php" src="images/photos/05.jpg" alt="" /> </a><a rel="prettyPhoto[gallery]" href="images/photos/06.jpg"> <img class="work css" src="images/photos/06.jpg" alt="" /> </a><a rel="prettyPhoto[gallery]" href="images/photos/07.jpg"> <img class="work js" src="images/photos/07.jpg" alt="" /> </a><a rel="prettyPhoto[gallery]" href="images/photos/08.jpg"> <img class="work html_php" src="./images/photos/08.jpg" alt="" /> </a><a rel="prettyPhoto[gallery]" href="images/photos/09.jpg"> <img class="work js" src="images/photos/09.jpg" alt="" /> </a><a rel="prettyPhoto[gallery]" href="images/photos/10.jpg"> <img class="work html_php" src="images/photos/10.jpg" alt="" /> </a> </div>
+        <div class="work icf">ICF</div>
+		<div class="work exe">
+			<h1><span>Project Name - </span>See More Products</h1>
+					<h3>Project Overview</h3>
+						<p>The objective of the "See More Products" project was to design a 
+						new module for Exemplum's Flash demos which will allow 
+						users to look at products related to the one they are currently viewing.
+						</p>
+					<h3>Technical details</h3>
+						<p>The flash component calls an aspx page using action script The 
+						aspx class connects to a SQL-SERVER database, returns the related products
+						using a stored procedure and a relationship algorythm. The aspx code writes
+						the products to an XML document. The XML document is 
+						consumed by the Flash Demo and the related products are displayed 
+						to the user.
+						</p>
+					<h3>Screenshots and Video</h3>
+					<table cellspacing="17">
+					<tr>
+						<td><center>
+						<a rel="prettyPhoto[gallery]" href="images/cranium2.jpg" id="mb2" class="mb" title="Cranium"><img src="images/tumbs/cranium_tumb.jpg" alt="The related products to Cranium are listed in the table on the right side."/></a>
+						</center></td>
+						<td><center>
+						<a rel="prettyPhoto[gallery]" href="images/starwars2.jpg" id="mb3" class="mb" title="Starwars"><img src="images/tumbs/starwars_tumb.jpg" alt="The related products to Starwars are listed in the table on the right side."/></a>
+						</center></td>
+						<td><center>
+						<a rel="prettyPhoto[gallery]" href="images/transformer2.jpg" id="mb4" class="mb" title="Transformer" ><img src="images/tumbs/transformer_tumb.jpg" alt="The related products to Transformers are listed in the table on the right side."/></a>
+						</center></td>
+						<td><center>
+						<a rel="prettyPhoto[gallery]" href="images/xmen2.jpg" id="mb5" class="mb" title="Xmen" ><img src="images/tumbs/xmen_tumb.jpg" alt="The related products to Xmen are listed in the table on the right side."/></a>
+						</center></td>
+						<td><center>
+						<a rel="prettyPhoto[gallery]" href="http://youtu.be/gv4WrVxtgPw" rel="width:500,height:400" id="mb0" class="mb" title="See More Products Interface."><img src="images/tumbs/see.jpg" alt="Video Demostration of the application Interface"/></a>			
+						</center></td>
+						<td><center>
+						<a rel="prettyPhoto[gallery]" href="http://youtu.be/xA0MZavCl7M" rel="width:500,height:400" id="mb1" class="mb" title="See More Products Video."><img src="images/tumbs/idog_tumb.jpg" alt="Video Demostration of the application functionality"/></a>		
+						</center></td>
+					</tr>
+					</table>
+		</div>
+		<div class="work ru"><h1><span>Project Name - </span>RU Bridges and Pipelines</h1>
+			<h3>Project Overview</h3>
+				<p>The RU Bridges and Pipelines project is a part of a larger 
+				NSF S-STEM grant. During this semester long project, my teammates 
+				and I worked closely with our client Dr. Uppuluri to build a web 
+				application that helps selected faculty keep track of scholarship 
+				recipients and their progress. The website authenticates users using 
+				Radford University's central user database and checks if user is 
+				registered with the site before allowing access. "Administrator" 
+				and "user" roles are differentiated in the system. The site 
+				functionality also include: bulk adding of students from a word 
+				document, editing, removing, updating student progress. <br/>  <br/>
+				For more information please visit:<br/>
+			<a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0849642" target="_blank" >Award Abstract - 
+ Bridges and Pipelines to Success and Leadership in STEM</a>
+				<br/><br/>
+				The RU Bridges website is currently hosted at:<br/>
+				<a href="https://php.radford.edu/~sstem/login.php" target="_blank" >https://php.radford.edu/~sstem/login.php</a>
+				</p>
+			<h3>Technical details</h3>
+				<p>The website is written using PHP. Validation on the page is done
+				using an external JavaScript library and PHP. The page connects to
+				an Oracle database which includes tables to support the user 
+				and scholarship recipient information.</p>
+	</div>
+	<div class="work ru">
+				<h1><span>Project Name - </span>Administrative Logger for Faculty Annual Report System</h1>
+			<h3>Project Overview</h3>
+			<p>The Faculty Annual Report System is Radford University's effort 
+			to reduce the paperwork required for yearly faculty 
+			reports. Our team was tasked to create an administrative module to
+			this application and most importantly create a modular and flexible
+			logging system that can log information of various levels 
+			in the application. This project should help the site administrator 
+			to pinpoint errors and warnings in the system. The system should 
+			allow the administrator to dial the log level up or down, define new error
+			types. The administrator should be able to specify where and how 
+			often the log files  should be created. <br/><br/>
+			 To learn more about this project please visit:<br/>
+			 <a href="https://php.radford.edu/~spsc/wordpress/?page_id=7" target="_blank" >
+				Small Project Support Center</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<br/><br/>
+			The site is currently being beta tested by professors and hosted at:<br/>
+			 <a href="https://php.radford.edu/~spsc-far/faculty_interface/" target="_blank" >
+				Faculty Interface of the Annual Report System </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</p>
+			<h3>Technical details</h3>
+			<p>The site uses an oracle database and it's written in PHP, our administrative 
+			system uses <a href="http://incubator.apache.org/log4php/" target="_blank">log4PHP</a> to assist with the logging functionality. When a new error
+			type is created by the administrator , it is stored in a database and all the 
+			errors are written to a flat file so the logger system is functional even if 
+			the database connection is lost. The system has various error levels starting
+			from TRACE_MESSAGE to a FATAL_ERROR. </p>
+	</div>
+		</div>
         <div class="clear"> </div>
       </div>
     </div>

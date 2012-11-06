@@ -189,8 +189,8 @@ div#works {
 	width:725px;
 }
 div#works img {
-	width:28%;
-	min-height:150px;
+	/*width:28%;
+	min-height:150px;*/
 	position:relative;
 	margin-right:26px;
 	margin-bottom:18px;
@@ -424,7 +424,6 @@ blockquote {
 	margin:20px;
 }
 div.page img {
-	padding:5px;
 	border:1px solid #73aaca;
 	max-width:94%
 }
@@ -615,4 +614,9 @@ ul.sublist li a:hover {
 }
 .flex-control-nav {
 	display:none;
+}
+.work{
+border:1px solid #fff;
+padding:5px;
+clear:both;
 }

@@ -65,7 +65,7 @@ $(document).ready(function () {
     });
 
     var $container = $('div#works').isotope({
-        itemSelector: 'img.work',
+        itemSelector: 'div.work',
         layoutMode: 'fitRows'
     });
 
@@ -74,7 +74,7 @@ $(document).ready(function () {
         var selector = $(this).attr('data-filter');
         $('div#works').isotope({
             filter: selector,
-            itemSelector: 'img.work',
+            itemSelector: 'div.work',
             layoutMode: 'fitRows'
         });
 
