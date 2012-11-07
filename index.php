@@ -105,9 +105,53 @@
         <div class="clear"> </div>
         <div id="works"> 
           <!-- works --> 
-        <div class="work icf">ICF</div>
+        <div class="work icf">
+		<h3><span>Project Name - </span>U.S.-Brazil Joint Initiative on Urban Sustainability JIUS</h3>
+		<p>This is an innovative website to catalyze public-private partnerships for investment in sustainable 
+		urban infrastructure and expanding markets for clean technology, products and services. 
+		The site was developed using the latest font end technologies such as HTML5, CSS3 and jQuery 
+		the site's design is responsive to make the website available on mobile devices and tablet computers. 
+		<br/>The project url is:<br/><a target="_blank" href="http://epa.gov/jius" title="JIUS">epa.gov/jius</a>  
+		</p>
+		</div>
+		<div class="work icf">
+		<h3><span>Project Name - </span>RPM-web Redesign, National Cooperative Highway Research Program</h3>
+		<p>NCHRP's online Research Performance Measure tool is a web application originally designed to assist state departments 
+		of transportation in gauging research effectiveness.  The initial implementation of the tool was too complex and therefore 
+		ICF was hired to redesign the website and attract more users to the system. My duties included designing parts of 
+		the database, implementing and configuring full text search using Apache Solr, implementing the authentication system 
+		and handling all deployments.
+		<br/>The project url is:<br/><a target="_blank" href="https://rpmweb.org" title="rpmweb.org">rpmweb.org</a>
+		</p>
+		</div>
+		<div class="work icf">
+		<h3><span>Project Name - </span>SHRP C01 Web-application</h3><p>It is designed for the Strategic Highway Research Program 2
+		of the Transportation Research Board,  I was working as a developer, building a highly interactive 
+		web tool that educates researchers and transportation professionals about the new collaborative decision-making framework 
+		that ICF designed for the TRB.  The web tool presents the framework and provides users with a diagnostic tool to determine
+		how the framework can be used in specific projects. The ICF team developed the collaborative decision-making framework based 
+		on interviews and workshops with major transportation stakeholders: DOT, FHWA, resource agencies, state transportation departments, 
+		and metropolitan planning organizations.  ICF is also developing an IT tool to showcase the framework and educate practitioners for 
+		direct implementation. Gabriel worked on developing controllers, views and models, as well as adding dynamic functionality to the 
+		site's user interface.<br/>
+		Technologies used include Ruby on Rails MySQL database,SOLR search engine,jQuery.
+		</p>
+		<br/>The project url is:<br/>
+		<a target="_blank" href="https://transportationforcommunities.com/" title="transportationforcommunities.com/">
+		transportationforcommunities.com</a>
+		</p>
+		</div>
+		<div class="work icf"><h3><span>Project Name - </span>FFD Submission and Reporting System, Nuclear Regulatory Commission</h3>
+		<p>The system was created for the NRC's Fitness-for-duty (FFD) program. The new system architecture was 
+		designed by myself with guidance from the Technical Director. The updated version has several new features which allow 
+		drug & alcohol, fatigue and annual report submissions. The redesigned submission system processes PDF forms by polling an inbox 
+		folder on the server, cleans and normalizes the data before inserting into a relational database. A new email feature notifies 
+		users about potential submission issues. I also supported the previous versions of the system and have a good 
+		understanding of the overall system architecture. Using my prototype, several reports were developed. 
+		My assistance with T-SQL queries to gather report data was a great opportunity to learn the FFD's database architecture. 
+		Technologies used include SQL Server 2008, Java, Spring Framework, Jasper Reports, XML.</p></div>
 		<div class="work exe">
-			<h1><span>Project Name - </span>See More Products</h1>
+			<h3><span>Project Name - </span>See More Products</h3>
 					<h3>Project Overview</h3>
 						<p>The objective of the "See More Products" project was to design a 
 						new module for Exemplum's Flash demos which will allow 
@@ -122,30 +166,28 @@
 						to the user.
 						</p>
 					<h3>Screenshots and Video</h3>
-					<table cellspacing="17">
-					<tr>
-						<td><center>
+					<ul>
+						<li>
 						<a rel="prettyPhoto[gallery]" href="images/cranium2.jpg" id="mb2" class="mb" title="Cranium"><img src="images/tumbs/cranium_tumb.jpg" alt="The related products to Cranium are listed in the table on the right side."/></a>
-						</center></td>
-						<td><center>
+						</li>
+						<li>
 						<a rel="prettyPhoto[gallery]" href="images/starwars2.jpg" id="mb3" class="mb" title="Starwars"><img src="images/tumbs/starwars_tumb.jpg" alt="The related products to Starwars are listed in the table on the right side."/></a>
-						</center></td>
-						<td><center>
+						</li>
+						<li>
 						<a rel="prettyPhoto[gallery]" href="images/transformer2.jpg" id="mb4" class="mb" title="Transformer" ><img src="images/tumbs/transformer_tumb.jpg" alt="The related products to Transformers are listed in the table on the right side."/></a>
-						</center></td>
-						<td><center>
+						</li>
+						<li>
 						<a rel="prettyPhoto[gallery]" href="images/xmen2.jpg" id="mb5" class="mb" title="Xmen" ><img src="images/tumbs/xmen_tumb.jpg" alt="The related products to Xmen are listed in the table on the right side."/></a>
-						</center></td>
-						<td><center>
+						</li>
+						<li>
 						<a rel="prettyPhoto[gallery]" href="http://youtu.be/gv4WrVxtgPw" rel="width:500,height:400" id="mb0" class="mb" title="See More Products Interface."><img src="images/tumbs/see.jpg" alt="Video Demostration of the application Interface"/></a>			
-						</center></td>
-						<td><center>
+						</li>
+						<li>
 						<a rel="prettyPhoto[gallery]" href="http://youtu.be/xA0MZavCl7M" rel="width:500,height:400" id="mb1" class="mb" title="See More Products Video."><img src="images/tumbs/idog_tumb.jpg" alt="Video Demostration of the application functionality"/></a>		
-						</center></td>
-					</tr>
-					</table>
+						</li>
+					</ul>
 		</div>
-		<div class="work ru"><h1><span>Project Name - </span>RU Bridges and Pipelines</h1>
+		<div class="work ru"><h3><span>Project Name - </span>RU Bridges and Pipelines</h3>
 			<h3>Project Overview</h3>
 				<p>The RU Bridges and Pipelines project is a part of a larger 
 				NSF S-STEM grant. During this semester long project, my teammates 
@@ -171,7 +213,7 @@
 				and scholarship recipient information.</p>
 	</div>
 	<div class="work ru">
-				<h1><span>Project Name - </span>Administrative Logger for Faculty Annual Report System</h1>
+				<h3><span>Project Name - </span>Administrative Logger for Faculty Annual Report System</h3>
 			<h3>Project Overview</h3>
 			<p>The Faculty Annual Report System is Radford University's effort 
 			to reduce the paperwork required for yearly faculty 
