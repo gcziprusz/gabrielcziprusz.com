@@ -15,3 +15,9 @@ git push origin master
 
 #update local copy
 git pull origin master
+
+
+#delting files
+
+git add . -A 
+git commit -m "removed some files"
