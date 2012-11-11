@@ -245,6 +245,7 @@
         <div class="clear"> </div>
       </div>
     </div>
+	<div class="clear"> </div>
     <div class="page" id="skillz"> 
       <!-- page skillz -->
       <h3 class="page_title">Skillz</h3>
@@ -289,9 +290,11 @@
                                 data-displayprevious="true" value="95" data-fgcolor="#cfdee7" data-bgcolor="#0d4667">
           </div>
         </div>
+		
+		
         <div class="one_fourth first">
           <div class="column_content">
-            <h4 class="blue"> ASP.NET MVC3</h4>
+            <h4 class="blue"> ASP.NET MVC4</h4>
             <input  title="self assessed ninja level" class="knob" data-readonly="true" data-width="120" data-min="0" data-angleoffset="0"
                                 data-displayprevious="true" data-fgcolor="#cfdee7" data-bgcolor="#0d4667" value="65">
           </div>
@@ -329,7 +332,7 @@
 		
 		<div class="clear"> </div>
         
-		<div class="one_half first">
+		
           <div class="column_content">
             <h4> ICF International</h4>
             <p>
@@ -351,9 +354,9 @@
 						</ul>
 			</p>
           </div>
-        </div>
+  
 		
-		<div class="one_half first">
+	
           <div class="column_content">
             <h4> Exemplum LLC.</h4>
             <p>Engineered ASP.NET Flash and Flex applications for online product 
@@ -372,8 +375,7 @@
 						</ul>
 			</p>
           </div>
-        </div>
-        <div class="one_half last">
+        
           <div class="column_content">
             <h4> Radford University</h4>
             <p>Managed computer staff and IT equipment at a Public University.
@@ -389,9 +391,8 @@
 							<li><span>Installed and upgraded computer hardware and software</span></li>
 						</ul></p>
           </div>
-        </div>
         <div class="space"> </div>
-        <div class="one_half first">
+       
           <div class="column_content">
             <h4> Ruritan National</h4>
             <p>Administered PHP based web site for a community service organization.
@@ -404,8 +405,8 @@
 										calendar</span></li>
 						</ul></p>
           </div>
-        </div>
-        <div class="one_half last">
+        
+       
           <div class="column_content">
             <h4> Echostar/WildBlue LLC.</h4>
             <p>Assisted end users with satellite internet connection problems for a fortune 300 company.
@@ -419,8 +420,7 @@
 									IE, Mozilla, Safari, Opera</span></li>
 						</ul></p>
           </div>
-        </div>
-		
+        		
         <div class="clear"> </div>
       </div>
     </div>

@@ -244,7 +244,7 @@ ul#works_filter li a:hover, ul#works_filter li a.selected {
 	border-radius:2em;
 	line-height:45px;
 	height:45px;
-	width:190px;
+	width:160px;
 }
 .social_icons li {
 	display:inline;
@@ -618,5 +618,6 @@ ul.sublist li a:hover {
 .work{
 border:1px solid #fff;
 padding:5px;
+margin-right: 25px;
 clear:both;
 }

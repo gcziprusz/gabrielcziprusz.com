@@ -1,0 +1,17 @@
+HOW TO GIT IT:
+
+# Add all filez
+git add *
+git add .
+
+# Commits your files to local repo
+git commit -m 'first commit'
+
+# Creates a remote named "origin" pointing at your GitHub repo
+git remote add origin https://github.com/gcziprusz/gabrielcziprusz.git
+
+# Sends your commits in the "master" branch to GitHub
+git push origin master
+
+#update local copy
+git pull origin master

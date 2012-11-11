@@ -82,8 +82,11 @@ div.page_content img {
 	width:25px;
 	height:25px
 }
-#skills .one_fourth {
+#skillz .one_fourth {
 	width:250px;
+}
+#logo{
+	font-size:25px;
 }
 }
 
@@ -123,7 +126,7 @@ div#container {
 a#logo {
 	position:relative;
 	border-right:none;
-	width:auto
+	width:auto;
 }
 a#logo:hover {
 	border-right:none
@@ -270,7 +273,7 @@ h3.page_title {
 	line-height: 1.0 !important;
 	margin-bottom:20px !important;
 }
-#skills .one_fourth {
+#skillz .one_fourth {
 	width:280px;
 }
 .flex-control-nav {
