@@ -183,6 +183,7 @@ div#container h3.page_title {
 	line-height:2;
 	padding:5px 0 0px 0px
 }
+#employment h3{margin-top:25px;}
 div#works {
 	margin-top:10px;
 	overflow:visible!important;
@@ -243,8 +244,9 @@ ul#works_filter li a:hover, ul#works_filter li a.selected {
 	background:#0D4667;
 	border-radius:2em;
 	line-height:45px;
-	height:45px;
+	height:40px;
 	width:160px;
+	padding: 5px 0px 0px 10px;
 }
 .social_icons li {
 	display:inline;
@@ -256,6 +258,13 @@ ul#works_filter li a:hover, ul#works_filter li a.selected {
 }
 #contact_form input {
 	background:#195f88;
+}
+#contact{
+margin-top:75x;
+margin-bottom:75px;
+}
+#contact img{
+padding-top:75x;
 }
 fieldset#contact_form {
 	width:100%;
@@ -587,6 +596,9 @@ ul.sublist li a:hover {
 	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
 }
+#clients li a{
+	padding:10px;
+}
 /* CLIENTS */
 #clients .eu:hover, #clients .eu.active {
 	background: #0079b0;
@@ -621,3 +633,9 @@ padding:5px;
 margin-right: 25px;
 clear:both;
 }
+.work.exe ul{height:62px;}
+.resume{
+position:relative;
+}
+.resume .txt{position:absolute;top:20px;left:0px;}
+.resume .img{position:absolute;top:15px;left:160px;}
